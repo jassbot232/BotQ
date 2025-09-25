@@ -568,7 +568,7 @@ Select output resolution:
 
 # Main execution
 if __name__ == '__main__':
-    BOT_TOKEN = os.getenv('BOT_TOKEN')
+    BOT_TOKEN = os.getenv('BOT_TOKEN' '8280984830:AAG8UjuGiGkydmqcACezlDNeBFacjNEIBEM')
     
     if not BOT_TOKEN:
         print("❌ Please set BOT_TOKEN environment variable!")
